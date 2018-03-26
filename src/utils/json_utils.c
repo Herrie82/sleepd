@@ -15,6 +15,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 #include <string.h>
+#include <stdbool.h>
 #include "json_utils.h"
 
 bool get_json_string(struct json_object *object, const char *key, char **value)
